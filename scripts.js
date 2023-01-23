@@ -8,6 +8,7 @@ window.onload = (event) => {
 gridSizeBtn.addEventListener('click', (event) => {
   let gridSize = 0;
   gridSize = prompt('Set the grid size. Max grid size = 100.');
+  if (gridSize < 1) gridSize = 1;
   if (gridSize > 100) gridSize = 100;
   setGridSize(gridSize);
 });
