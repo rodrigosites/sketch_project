@@ -25,9 +25,6 @@ function setGridSize(gridSize) {
       squareDiv.onmouseenter = (event) => {
         squareDiv.style.backgroundColor = 'black';
       }
-      squareDiv.onmouseleave = (event) => {
-        squareDiv.style.backgroundColor = 'white';
-      }
       gridLineDiv.appendChild(squareDiv);
     }
   }

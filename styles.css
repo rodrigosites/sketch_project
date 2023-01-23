@@ -5,6 +5,7 @@
 
 .page-container {
   display: flex;
+  margin: 0.5%;
 }
 
 .grid-container {
@@ -26,6 +27,6 @@ div[class^="grid-line"] {
 div[class^="square-div"] {
   border-style: none;
   flex: auto;
-  min-width: 10px;
-  min-height: 10px;
+  min-width: 5px;
+  min-height: 5px;
 }
