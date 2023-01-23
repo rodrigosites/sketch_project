@@ -1,3 +1,22 @@
-.page-container {
+* {
+  margin: 0;
+  border: none;
+}
+
+.grid-container {
+  width: 30%;
+  border-width: 1px;
+  border-style: solid;
+  max-height: 50%;
+}
+
+div[class^="grid-line"] {
   display: flex;
+  justify-content: space-evenly;
+}
+
+div[class^="square-div"] {
+  border-style: none;
+  flex: auto;
+  min-height: 25px;
 }
